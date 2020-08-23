@@ -1,1 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url("reset.css");
+
+
+.title {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.entry-textbox {
+    background: #fddb3a;
+    border-radius: 25px;
+    padding: 20px;
+    border: none;
+    margin: 10px 0;
+    width: 30em;
+    height: 15em;
+}
+.entry-textbox:focus {
+    outline: none;
+}
+
+
+.submit-btn {
+    background: #41444b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 400;
+}
